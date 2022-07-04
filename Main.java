@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.print("\nCompile by Shubham Singh Rawat \nEmployee ID: 1747\n");
+        System.out.println("\nCompile by Shubham Singh Rawat");
         singleton a =singleton.getInstance();
         singleton b =singleton.getInstance();
         System.out.println("Hashcode of a: "+a.hashCode());
